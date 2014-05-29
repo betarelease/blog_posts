@@ -59,14 +59,14 @@ The workshop trainers and teams agreed on a few ground rules during the training
 
 _Key: Do frequent checks to ensure that everyone is engaged and keep pace of the session._
 
-## Uncovering hard lessons.
+## Uncovering hard lessons
 
 The intent of this workshop was to bring all the teams together and collaborate. While doing so we wanted to understand some basic concepts in depth. Ensuring people collaborate on the same project, sharing code periodically and developing a feature in depth worked for us well. We were not able to cover as much as we had planned but were able to discover patterns, discuss them and apply them to our applications. Having the focus ensured the richness of learning. We were able to build complete UI, make it testable and learn how to tune its performance. We were able to learn how Android behaves and communicates with a service. 
 Learning about the mobile experience - especially where we learnt how to allow the user to scroll through a bunch of listings with images without giving a feel of 'the app is still loading as it is scrolled' - was what we achieved by the end of the workshop. 
 
 <img src="{{ root_url }}/images/android_showcase.jpeg" />
 
-Concepts we learnt:
+## Concepts we learnt
 
 
    -   The Android toolkit, Junit and Robolectric are not always in sync. So beware of version compatibilities between these. We fixed the incompatibilities by using Android SDK platform version 17.

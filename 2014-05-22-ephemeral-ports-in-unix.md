@@ -25,7 +25,8 @@ What was happening in our case was we started our app on the ports 36601, 37601,
 Use port numbers between 1024-32768 for all user space applications. Or else you will end with this unfortunate scenario. It is ok if this happens on your laptop but you certainly want to be careful about this behavior in production applications.
 
 ##Way more information about this here
-[Wikipedia - Ephemeral Ports](http://en.wikipedia.org/wiki/Ephemeral_port)
-[Linux - local port range](http://www.cyberciti.biz/tips/linux-increase-outgoing-network-sockets-range.html)
-[What is different about linux](http://ashok-linux-tips.blogspot.com/2010/11/port-numbers-in-linux.html)
-[Dynamic port range - RFC6056](http://tools.ietf.org/html/rfc6056)
+
+- [Wikipedia - Ephemeral Ports](http://en.wikipedia.org/wiki/Ephemeral_port)
+- [Linux - local port range](http://www.cyberciti.biz/tips/linux-increase-outgoing-network-sockets-range.html)
+- [What is different about linux](http://ashok-linux-tips.blogspot.com/2010/11/port-numbers-in-linux.html)
+- [Dynamic port range - RFC6056](http://tools.ietf.org/html/rfc6056)
