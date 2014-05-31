@@ -31,10 +31,6 @@ We were able to build this very quickly using an off the shelf arduino kit from 
 ## RFID readers and cards - Quirk
 One gotcha while working with RFID readers and cards - the RFID reader we used operates at a certain frequency and the cards that come with it are compatible with it. The cards that are usually used for door access systems in offices use a different frequency range, need a more sophisticated reader. So your ID cards will not work as a replacement for the RFID cards with sparkfun RFID reader. Please check the specs before buying one of these. Our specs and SKU numbers are below so that you can buy the exact same things that worked for us.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 030d5095654dfc89f69d56096b0167fee3c647dd
 - [Sparkfun inventors kit](https://www.sparkfun.com/products/12001)
 - [RFID cards and RFID readers](http://www.instructables.com/id/Arduino-and-RFID-from-seeedstudio/)
 (The RFID shields we used have been upgraded and no longer the same size or form. The above ones look like close replacement.)
