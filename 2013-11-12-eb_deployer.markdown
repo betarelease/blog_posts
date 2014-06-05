@@ -23,5 +23,9 @@ Elastic Beanstalk allowed us to worry less about deployments more about our code
 
 EbDeployer as it is built relieves you from the pain of writing any Elastic Beanstalk api code. All you need to do is package your application, define some basic parameters and deploy(or eb_deploy). You are done!
 
-You can find out more about [EbDeployer](http://ThoughtWorksStudios.github.io/eb_deployer) from our talk at [aws re:invent 2013](https://portal.reinvent.awsevents.com/connect/search.ww#loadSearch-searchPhrase=Sudhindra+Rao&searchType=session&tc=0&sortBy=abbreviationSort&p=). Also checkout the tutorial on the website.
+You can find out more from our talk at [aws re:invent 2013](http://blogs.aws.amazon.com/application-management/post/TxZ8FZHFP6EYOQ/AWS-re-Invent-2013-Sessions-Now-Available)
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/28428616" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/AmazonWebServices/aws-elastic-beanstalk-under-the-hood-dmg301-aws-reinvent-2013-28428616" title="AWS Elastic Beanstalk under the Hood (DMG301) | AWS re:Invent 2013" target="_blank">AWS Elastic Beanstalk under the Hood (DMG301) | AWS re:Invent 2013</a> </strong> from <strong><a href="http://www.slideshare.net/AmazonWebServices" target="_blank">Amazon Web Services</a></strong> </div>
+
+Also checkout the tutorial at [EbDeployer](http://ThoughtWorksStudios.github.io/eb_deployer).
 
