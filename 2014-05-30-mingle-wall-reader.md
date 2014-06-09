@@ -36,4 +36,8 @@ One gotcha while working with RFID readers and cards - the RFID reader we used o
 (The RFID shields we used have been upgraded and no longer the same size or form. The above ones look like close replacement.)
 ##Demo
 
+Here is a video demo of how it works.
+
+<iframe src="//player.vimeo.com/video/97603955" width="600" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/97603955">VID_20140607_105007_353.mp4</a> from <a href="http://vimeo.com/user4311546">Bill DePhillips</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 We have the code([wall_reader](https://github.com/ThoughtWorksStudios/wall_reader.git)) and design opensourced - so feel free to build one for yourself. If you have any questions feel free to reach out so that I can help.
