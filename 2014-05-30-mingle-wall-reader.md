@@ -34,6 +34,7 @@ One gotcha while working with RFID readers and cards - the RFID reader we used o
 - [Sparkfun inventors kit](https://www.sparkfun.com/products/12001)
 - [RFID cards and RFID readers](http://www.instructables.com/id/Arduino-and-RFID-from-seeedstudio/)
 (The RFID shields we used have been upgraded and no longer the same size or form. The above ones look like close replacement.)
+
 ##Demo
 
 Here is a video demo of how it works.
