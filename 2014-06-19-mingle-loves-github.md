@@ -14,7 +14,7 @@ GitHub's API for interacting with repositories gave us an easy way to implement 
 How it works
 ------------
 
-GitHub exposes a number of ways to integrate with itself. All that the user is required to do is setup a webhook for GitHub to be able to integrate with your application. More information on webhooks and how to set them up is on (github docs)[https://developer.github.com/webhooks/].
+GitHub exposes a number of ways to integrate with itself. All that the user is required to do is setup a webhook for GitHub to be able to integrate with your application. More information on webhooks and how to set them up is on [github docs](https://developer.github.com/webhooks/).
 
 Choose between webhook and service
 ----------------------------------
@@ -35,6 +35,6 @@ Using it for Profit
 
 If you really want to make the most of this feature you need not stop at looking at the commits in Mingle Murmurs. If you follow a certain etiquette around your commits - you can leverage a little bit more of Mingle. Once you prepend your commits with project_name/#card_number, these commits will be linked to the appropriate card on Mingle
 
-We also built another feature that makes it really easy to link a card with your commit. We call this feature (Clippy)[http://getmingle.io/news/2014/04/18/Clippy.html].
+We also built another feature that makes it really easy to link a card with your commit. We call this feature [Clippy](http://getmingle.io/news/2014/04/18/Clippy.html).
 
-More integration with GitHub issues, deployment, etc. are forthcoming. Watch this space or our blog at (getmingle.io)[http://getmingle.io] or follow us on twitter (@thatsmingle)[http://twitter.com/thatsmingle]
+More integration with GitHub issues, deployment, etc. are forthcoming. Watch this space or our blog at (getmingle.io)[http://getmingle.io] or follow us on twitter [@thatsmingle](http://twitter.com/thatsmingle)
