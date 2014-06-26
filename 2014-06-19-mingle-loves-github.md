@@ -2,7 +2,7 @@
 layout: post
 title: Mingle Loves GitHub
 tags: [mingle, github, integration, push, commits, murmurs]
------------------------------------------------------------
+---
 
 Mingle has a new look and feel, if you have not seen it already. In improving the experience we have also been looking at improving how Mingle integrates with the world.
 
@@ -36,4 +36,4 @@ If you really want to make the most of this feature you need not stop at looking
 
 We also built another feature that makes it really easy to link a card with your commit. We call this feature [Clippy](http://getmingle.io/news/2014/04/18/Clippy.html).
 
-More integration with GitHub issues, deployment, etc. are forthcoming. Watch this space or our blog at (getmingle.io)[http://getmingle.io] or follow us on twitter [@thatsmingle](http://twitter.com/thatsmingle)
+More integration with GitHub issues, deployment, etc. are forthcoming. Watch this space or our blog at [getmingle.io](http://getmingle.io) or follow us on twitter [@thatsmingle](http://twitter.com/thatsmingle)
