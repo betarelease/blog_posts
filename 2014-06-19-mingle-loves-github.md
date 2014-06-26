@@ -1,7 +1,6 @@
 ---
-
-layout: post title: Mingle Loves GitHub
-
+layout: post
+title: Mingle Loves GitHub
 tags: [mingle, github, integration, push, commits, murmurs]
 -----------------------------------------------------------
 
