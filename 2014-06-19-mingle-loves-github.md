@@ -32,7 +32,9 @@ You should be able to see the check-in information on Mingle Murmurs.
 Using it for Profit
 -------------------
 
-If you really want to make the most of this feature you need not stop at looking at the commits in Mingle Murmurs. If you follow a certain etiquette around your commits - you can leverage a little bit more of Mingle. Once you prepend your commits with project_name/#card_number, these commits will be linked to the appropriate card on Mingle
+If you really want to make the most of this feature you need not stop at looking at the commits in Mingle Murmurs. If you follow a certain etiquette around your commits - you can leverage a little bit more of Mingle. Once you prepend your commits with project_name/#card_number, these commits will be linked to the appropriate card on Mingle.
+
+<img src="{{ root_url }}/images/github_murmur.png" />
 
 We also built another feature that makes it really easy to link a card with your commit. We call this feature [Clippy](http://getmingle.io/news/2014/04/18/Clippy.html).
 
