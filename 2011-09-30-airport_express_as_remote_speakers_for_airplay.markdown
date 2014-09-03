@@ -9,7 +9,7 @@ I have an airport express that I used to use as my wireless router when I travel
 
 I was hoping to connect my desktop and my laptop to my music system which is located in another room than these machines. Apparently airport express can connect with your existing wireless router as a client (yes they have thought of everything) allowing you to do exactly that. Here is a list of quirks you need to remember when you try to set it up as a [wireless client](http://support.apple.com/kb/HT2272?viewlocale=en_US).
 
-1. Prerequisites - Note down the channel number your current wireless router is transmitting on - anywhere between 1 to 11. 
+1. Prerequisites - Note down the channel number your current wireless router is transmitting on - anywhere between 1 to 11.
 2. Plug in the airport express and connect it to your mac using the ethernet cable.
 3. Start airport utility~~ which will try to detect any airport devices but will not find any.
 4. Hard reset by pressing the reset button with a paper clip for atleast 10 seconds. The light blinks rapidly when you are holding the pin and then in 30 seconds becomes steady - this means that airport express is restarting.
