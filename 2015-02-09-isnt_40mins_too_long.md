@@ -2,7 +2,6 @@
 layout: post
 title: Isn't 40 mins too long for a build?
 tags: [mingle, build, ci, continuous delivery, cd,feedback]
-draft: true
 ---
 
 Yes, our CI build on Mingle takes 40 mins.
