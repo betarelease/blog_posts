@@ -16,13 +16,19 @@ Now that I have made some bizarre statements let me explain what they mean(befor
 
 Mingle has been built in ruby and is deployed using JRuby/Java. Mingle was built originally to work with database technologies that did not support NoSQL. So, Mingle team went ahead and built their own way of constructing schemas on the fly. These schemas were further elastic - in that they could be changed on the fly - as your team becomes better or needs different measurements/metrics over time. This provided ultimate configurability to Mingle.
 
-Given this technology and the fact that Mingle supports Oracle, alongwith it's favorite PostgreSQL, Mingle team became heavily reliant on testing - all through to the database layer. Mingle team quickly learnt that 'select is not broken on PostgreSQL' - but for Oracle it is an entirely different tale.
+Given this technology and the fact that Mingle supports Oracle, alongwith it's favorite PostgreSQL, Mingle team became heavily reliant on testing - all through to the database layer.
+Over the years we have been able to improve the granularity of tests as well as improve coverage. But such tight coupling makes it tricky to separate the tests from the database.
 
-### Select is in fact broken on Oracle.
-
-Select with an IN clause when used with Oracle has a limit of 1000 results and we have had to apply that restriction on numerous of our Select statements(only for Oracle). Furthermore, Oracle does not do a very good job at optimizing SQL - thus making a few of our complicated JOINs unpleasant to the naked eye as well as irking some Oracle DBAs - and hence being too slow to be useful with large data. Given that Oracle feature, we depend on our tests to ensure that such behaviour is not broken. Over the years we have been able to improve the granularity of tests as well as improve coverage.
-
-With such tight coupling it would certainly make it tricky to separate the tests from the database.
+<div class="inset">
+<b>Select is in fact broken on Oracle</b>
+<br/>
+<br/>
+Mingle team quickly learnt that 'select is not broken on PostgreSQL' - but for Oracle it is an entirely different tale.
+<br/>
+Select with an IN clause when used with Oracle has a limit of 1000 results and we have had to apply that restriction on numerous of our Select statements(only for Oracle).
+<br/>
+Furthermore, Oracle does not do a very good job at optimizing SQL - thus making a few of our complicated JOINs unpleasant to the naked eye as well as irking some Oracle DBAs - and hence being too slow to be useful with large data. Given that Oracle feature, we depend on our tests to ensure that such behaviour is not broken.
+</div>
 
 ## Completely test driven application
 
