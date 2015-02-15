@@ -32,22 +32,25 @@ Furthermore, Oracle does not do a very good job at optimizing SQL - thus making 
 
 ## Completely test driven application
 
-Given the design on Mingle a number of our functional tests hit the database. Some of our unit tests do this as well.
+Mingle's design forces a number of our functional tests to hit the database. Some of our unit tests do this as well.
 
 Along with the configurability Mingle also lets the user derive lot of mileage through reports and collaboration. Both of these are applications in themselves(and there are business around each of them). Since Mingle supports interactions at so many levels our acceptance tests become more involved and require journeys instead of one simple test here and there.
 
 All this becomes even more complicated when the application changes hands through multiple generation of teams. Over time I learnt that some tests could use some major refactoring but the effort may not yet justify the improvement in performance.
 
-Thanks to this suite of tests we have often found bugs/test failures in areas that seemed to be remotely connected to the features being built. Some of the deeper coupling became obvious to us
+Thanks to this suite of tests we have often found bugs/test failures in areas that seemed to be remotely connected to the features being built. Some of the deeper coupling became obvious to us.
 
 Another thing that is unique about this build for Mingle is that we run all tests - ALL TESTS. - before we declare success. There is no regression test suite - which runs after the fact for 8 hours, there is delayed feedback cycle. 40 mins is all it takes for anything and EVERYTHING to pass. If you look at it this way, then WE ACTUALLY HAVE THE FASTEST BUILD POSSIBLE. We could and have delivered critical changes to Mingle in matter of a couple of hours.
 
 ## Highly Parallelized CI Build
 
-If we are to run any portion of this build - which consists of 8500 units/functionals and about 3000 acceptance tests - in a single process, it will take longer than an hour. We do not have that kind of patience. But we rely on these tests to point out complex relationships among features/modules. In order to derive the same value from these tests without waiting forever we decided to throw hardware at the problem.
+If we are to run any portion of this build - which consists of 8500 units/functionals and about 3000 acceptance tests - in a single process - would be like [watching grass grow](http://www.watching-grass-grow.com/). We do not have that kind of patience. But we rely on these tests to point out complex relationships among features/modules. In order to derive the same value from these tests without waiting forever we decided to throw hardware at the problem.
 
-What we have is a massively parallelized gocd build pipeline which runs these tests in under an hour. Even for such a long build we have invested about 100 cores of processing power hosted on really fast machines. We have started using openstack to manage these environments thus saving us a lot of time in case of VM failures, and at times when we have to apply OS patches/upgrades.
+We use [gocd](http://www.go.cd/) as our Continuous Delivery tool. gocd allows us to have a really configurable pipeline structure which we can configure to scale. What we have is a massively parallelized gocd build pipeline which runs these tests in under an hour. Even for such a long build we have invested about 100 cores of processing power hosted on really fast machines. We have started using [openstack](https://www.openstack.org/) to manage these environments thus saving us a lot of time in case of VM failures, and at times when we have to apply OS patches/upgrades.
 
+With gocd we invested significant time in parallelizing tests. One of the features of the old generation test splitting strategy was a simple but homegrown parallelization strategy. We replaced this with a much more robust, but automated test splitting and balancing provided through [test load balancer - TLB](http://test-load-balancer.github.io/). Using this tool exposed our test dependencies. We spent significant time in resolving these dependencies and cleaning up tests to allow them to be TLB friendly - independent of order, side effects and environment agnostic. This parallelization brought the much needed cleanliness. Along with this we were able to add more agents to extract better build performance.
+
+Now we run all tests in parallel - units, functionals, acceptance.
 
 ## Power consumption as a build metric
 
@@ -59,12 +62,15 @@ But what about FAST feedback? you might ask. We also think the same - we want fa
 
 Certainly 40 mins is long enough. How do we get faster then? How did we get faster in the past?
 
-We previously had a 2+ hour long build.(I can feel the cringe). We took it upon ourselves to shorten it slowly but surely. We tackled the low hanging fruits -deleting old, crummy, frequently failing tests and writing a faster/shorter test instead. This takes time - and it did. It took us upwards of 6 months to get to where we are.
+We previously had a 2+ hour long build.(I can feel the cringe). We took it upon ourselves to shorten it slowly but surely.
+A lot of effort went into profiling the build and identifying bottlenecks.
 
 Another thing we did was reduce the number of stages in our pipeline and heavily parallelize. We also pruned/postponed tests that were for the slowly/not changing parts of the application. So frequently changing modules were built for fast feedback.
 
-We picked a different tool to replace some of our acceptance tests and are migrating to using capybara and webdriver for new tests or rewriting tests.
+We picked a different tool to replace some of our acceptance tests and are migrating to using [capybara](https://rubygems.org/gems/capybara) and [webdriver](http://docs.seleniumhq.org/projects/webdriver/) for new tests or rewriting tests.
 
-Slowly but certainly we are deprecating/deleting acceptance tests that are flaky/broken or in general do not seem focused enough. Along with these tests that are not able to explain the features - succintly are moved over and rewritten in rspec.
+Slowly but certainly we are deprecating/deleting acceptance tests that are flaky/broken or in general do not seem focused enough. Along with these tests that are not able to explain the features - succintly are moved over and rewritten in [rspec](http://rspec.info/).
 
 This strategy has yielded great results for us. If we continue this exercise we can certainly make our build even faster.
+
+I am hoping some of these insights will help you fix your build issues.
