@@ -4,9 +4,8 @@ title: Isn't 40 mins too long for a build?
 tags: [mingle, build, ci, continuous delivery, cd,feedback]
 ---
 
-Yes, our CI build on Mingle takes 40 mins.
-
-Yes, Mingle is a ruby application. Yes, Mingle runs on Java using JRuby.
+Yes, our CI build on [@thatsMingle](https://twitter.com/thatsmingle) takes 40 mins.
+Yes, @thatsMingle is a ruby application. Yes, @thatsMingle runs on Java using JRuby.
 
 With all these superlative technologies Mingle CI build still takes 40 mins. And this is an improvement. And we are happy with it.
 
