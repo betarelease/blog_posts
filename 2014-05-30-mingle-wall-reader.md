@@ -6,6 +6,8 @@ tags: [mingle, rfid, arduino, mingle-api, mingle_party, httparty, http, hardware
 
 Some time ago we built a hardware integration to Mingle. We did not talk much about it at that time. Hence this post to revive the talk about hardware interface with Mingle. Also about other hardware projects that were done in ThoughtWorks around 100days of hardware.
 
+<!--more-->
+
 ## Physical Card Wall
 Many teams work in the traditional way where they use a physical(real) card wall to manage their project. Having a physical card wall has its advantages:
 
@@ -22,7 +24,7 @@ Although with all these advantages there is a need for digital walls and hence M
 The teams that you a physical card wall with Mingle feel the need to keep it in sync with Mingle. Most of the times the people in the room with the physical card wall are relunctant or miss out on making the same changes on the web as on the wall. This has been a chronic headache for the project manager who now has to spend time managing these two sources of truth to get accurate reports. This also could be a big deterrent in adopting Mingle as well.
 
 ## Wall Reader
-In order to bridge this gap and keeping these two entities in sync we recently built what we call wall reader(fondly the project is called 'Sugar'). 
+In order to bridge this gap and keeping these two entities in sync we recently built what we call wall reader(fondly the project is called 'Sugar').
 
 Wall Reader interfaces with Mingle using RFID tags. Every card on the physical wall is attached(glued) and associated to an RFID card. These RFID tags can then be scanned using 'Sugar' which reads the tags and helps you move the cards in the appropriate lane on Mingle. 'Sugar' uses an arduino to interface with the RFID reader. This arduino is connected to a ruby engine which posts/receives data from Mingle via Mingle APIs.
 

@@ -9,6 +9,7 @@ transported to a log-archive system like we did?
 
 Here is our working solution(with rsyslog):
 
+<!--more-->
 Add the following lines to your rsyslog.conf or equivalent level of log configuration file
 
 ```

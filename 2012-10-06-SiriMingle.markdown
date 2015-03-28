@@ -8,16 +8,18 @@ tags: [siri, iphone, osx, ios, siriproxy, mingle, sirimingle, api, crack, httpar
 ---
 <iframe width="420" height="315" src="http://www.youtube.com/embed/8ONszZN7q9U" frameborder="0" allowfullscreen></iframe>
 
-Announcing SiriMingle - a tool to interact with Mingle using SiriProxy. Bringing the power of Siri voice control to modify cards, get status and ask questions about the project. 
+Announcing SiriMingle - a tool to interact with Mingle using SiriProxy. Bringing the power of Siri voice control to modify cards, get status and ask questions about the project.
 
 It can be downloaded from [sirimingle](http://github.com/betarelease/sirimingle.git) and used with SiriProxy.
 
-SiriProxy is a proxy written in ruby 1.9 to allow people to use the power of Siri to perform useful tasks. Setting up SiriProxy was not trivial before. Over time and on 12.04 it can be more easily done. 
+SiriProxy is a proxy written in ruby 1.9 to allow people to use the power of Siri to perform useful tasks. Setting up SiriProxy was not trivial before. Over time and on 12.04 it can be more easily done.
+
+<!--more-->
 
 Here is how:
 
 * Install Ubuntu 12.04 on your virtualbox(virtual box link), or natively on your desktop/macpro.(For dualbooting on macpro follow the instructions : )
-On virtualbox the following setting needs to be configured to ensure that the VM running Ubuntu gets a native IP address on the host network. 
+On virtualbox the following setting needs to be configured to ensure that the VM running Ubuntu gets a native IP address on the host network.
 
 <!--more-->
 
@@ -31,20 +33,20 @@ Run the script. This script should install all dependencies required for dnsmasq
 [Guide: Setup Working SiriProxy](http://www.techjawa.com/2012/01/31/guide-setup-working-siriproxy-three-little-pigs/) is a great guide to setting SiriProxy correctly. You can choose to ignore setting up the Three Little Pigs server.
 Follow the instructions closely to setup Ubuntu 12.04 with dnsmasq and Siriproxy.  
 
-If everything has gone well so far you should see 
+If everything has gone well so far you should see
 {% highlight ruby linenos%}
 "Starting server on port 443"
 {% endhighlight %}
 
-This verifies that the dnsmasq is setup correctly and that Siriproxy can be run on your machine. 
+This verifies that the dnsmasq is setup correctly and that Siriproxy can be run on your machine.
 
-Now generate a certificate 
- 
+Now generate a certificate
+
 {% highlight ruby linenos%}
 siriproxy gencerts # generates certificates in .siriproxy folder
 {% endhighlight %}
 
-Email this certificate and install it on your phone by opening the email and opening the attachment. 
+Email this certificate and install it on your phone by opening the email and opening the attachment.
 
 <img src="{{ root_url }}/images/sirimingle_cert.png" />
 
@@ -55,13 +57,13 @@ Once the cert is installed change the dns settings for the network and add the I
 
 Now your phone is ready to talk to your Siriproxy server.
 
-Restart your SiriProxy server by 
+Restart your SiriProxy server by
 {% highlight ruby linenos%}
 rvmsudo siriproxy server
 {% endhighlight %}
 
 
-Invoke Siri on your phone: You should see the interaction logs in your terminal indicating that infact Siri is connecting to your SiriProxy via your dnsmasq. 
+Invoke Siri on your phone: You should see the interaction logs in your terminal indicating that infact Siri is connecting to your SiriProxy via your dnsmasq.
 
 Once you have SiriProxy setup change the ~/.siriproxy/config.yml to add your mingle hostname and credentials. This will allow SiriProxy to interact with the Mingle API.
 

@@ -3,9 +3,11 @@ layout: post
 title: Android Intensive - Refined
 tags: [android, google, phone, java, robolectric, calabash, hockeyapp]
 ---
-At our San Francisco office we have been working on building mobile development capabilities recently. Here is a little glimpse into what we did to make it work. 
+At our San Francisco office we have been working on building mobile development capabilities recently. Here is a little glimpse into what we did to make it work.
 
-The plan was to build enough initial capability so that we could bring everyone at a collaborative workshop and take their skills to the next level. This program started by a facilitated learning around designing applications for the mobile. We focused on Android platform. 
+The plan was to build enough initial capability so that we could bring everyone at a collaborative workshop and take their skills to the next level. This program started by a facilitated learning around designing applications for the mobile. We focused on Android platform.
+
+<!--more--> 
 
 ## Incorporating feedback and setup in advance
 

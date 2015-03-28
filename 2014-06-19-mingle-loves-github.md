@@ -10,6 +10,7 @@ One of features that was missing on the Mingle Cloud version was integration wit
 
 GitHub's API for interacting with repositories gave us an easy way to implement this. We have recently built and released GitHub integration for Mingle(soft woohoo!) In designing this feature we also thought about how people would use it with Mingle and how it would enhance their experience of being part of the team.
 
+<!--more-->
 How it works
 ------------
 

@@ -11,6 +11,8 @@ With all these superlative technologies Mingle CI build still takes 40 mins. And
 
 Now that I have made some bizarre statements let me explain what they mean(before you start calling me crazy).
 
+<!--more-->
+
 ## Some History
 
 Mingle has been built in ruby and is deployed using JRuby/Java. Mingle was built originally to work with database technologies that did not support NoSQL. So, Mingle team went ahead and built their own way of constructing schemas on the fly. These schemas were further elastic - in that they could be changed on the fly - as your team becomes better or needs different measurements/metrics over time. This provided ultimate configurability to Mingle.
