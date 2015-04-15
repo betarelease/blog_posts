@@ -8,9 +8,10 @@ Mingle has a new look and feel, if you have not seen it already. In improving th
 
 One of features that was missing on the Mingle Cloud version was integration with code. Given the popularity and market penetration it made sense to integrate with GitHub. Also GitHub's openness to promote open source software collaboration made it a clear first choice.
 
+<!--more-->
+
 GitHub's API for interacting with repositories gave us an easy way to implement this. We have recently built and released GitHub integration for Mingle(soft woohoo!) In designing this feature we also thought about how people would use it with Mingle and how it would enhance their experience of being part of the team.
 
-<!--more-->
 How it works
 ------------
 
