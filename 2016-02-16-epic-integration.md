@@ -2,7 +2,6 @@
 layout: post
 title: EPIC integration
 tags: [glooko, epic, wsdl, ws*, webservices, healthcare]
-draft: true
 ---
 
 ## Glooko - Diabetes Management Platform
@@ -10,12 +9,12 @@ draft: true
 I was very excited to find out about [Glooko](http://www.glooko.com) and start working there last year. Glooko has built a unified diabetes management platform, where we enable users to sync data from a variety of blood glucose meters, continuous glucose monitor(CGM) and insulin pumps, as well as popular fitness trackers. Once their data is uploaded, users can review their diabetes data in context with their insulin, food and fitness data, as well as other relevant clinical information to help with manage their blood glucose levels and keep them under control. Glooko platform also enables health care providers(doctors, nurses, caregivers, parents, etc.) to monitor a person with diabetes remotely and provide more timely, collaborative care.
 
 At Glooko, we now have a data platform that is open to integrations. Our preferred way to integrate is via our RESTful APIs using JSON.
+<!--more-->
 
 ## EPIC Integration
 
 Although Glooko is also available on the web and sends patient data securely via the cloud, a number of our partners/healthcare systems have invested in and are required to use Electronic Health Records(EHR) software in their clinic. And doctors are familiar and comfortable using that technology. In order to integrate with EHR technologies we had to learn about them and build custom integration with them.
 
-<!--more-->
 
 One of the frontrunners in EHR technology is [EPIC](http://www.epic.com/). EPIC EHR is used by a number of clinics and hospitals and provides a single window view into all patients' the data. EPIC also allows for some integration points into their EHR as long as the 3rd party adheres to their strict protocols. Newer versions of EPIC promise better ways for integration but their installations are few and the path to upgrading them is long, which is based on how quickly the health system's IT organization is able to do the installation.
 
