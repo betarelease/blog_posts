@@ -25,27 +25,27 @@ In working with anything to do with healthcare, you will come across the FDA - w
 FDA categorises your device into one of [three classes](https://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/Overview/ClassifyYourDevice/default.htm), from
 Class I (where the device may not harm you if used/misused - like a toothbrush) to Class III(where the device could cause you harm if misused/miscalibrated - eg. [defibrillator](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?ID=NIK)). As the class number goes up the sensitivity of FDA towards your medical device increases and stricter guidelines need to be followed to get approvals. These guidelines also need to be followed with each subsequent version of the medical device.
 
-## Regulatory team
+### Regulatory team
 
 Working with the FDA is usually an in house regulatory team who spends a lot of energy in understanding the classification and preparing for such submissions. This team usually helps you dot the t and dash the i(you know it is the other way around) - which ends up being a lot of t's and i's. This regulatory team also trains the software team on what it means to work in the healthcare setup and work with the FDA.
 
-# Patient Safety
+### Patient Safety
 
 The regulations from FDA are tuned to look at the process of building this software application. Based on the process some controls kick in, that require special attention.
 
-## How you built it
+#### How you built it
 
 FDA requires that you document the process well. From the time you started thinking about a feature of the device/software, detailed documentation of the process that was used to build your software/device, is a must. This process includes your project management tool, how it is configured, how the work is tracked and traced traced. This tool needs to be able to connect the dots between feature description, design, code as well as the testing that was carried out to accomplish the release.
 
-## What you built
+#### What you built
 
 The feature itself needs to be meticulously described, test scenarios identified and reasoned with appropriate design documentation attached for completeness. When this particular feature has been built, a verification has to be conducted and documented that proves how the feature works. This verification documentation can also be used as part of the instruction manual document.
 
-## Traceability
+#### Traceability
 
 When a feature is built, it could undergo some changes/tweaks based on what you learn during the development process. These changes need to be tracked. Once the development is completed the code changes need to be linked to the feature description so that incase of an audit this change path can be traced all the way back. This is also useful in case an issue is found after the release to allow for root-cause analysis.
 
-## Root cause and Root effect
+#### Root cause and Root effect
 
 When a particular issue is reported by a user, this issue is recorded in the project management system and an analysis will need to be performed to identify what caused the issue. Sometimes the user will experience the issue in a certain way, but data will not reflect exactly what the user experienced. Let me give you an example.
 
@@ -53,7 +53,7 @@ Let us say the medical device you have allows you to record a continuum of activ
 
 The above example illustrates the nuances involved in storing the data as well and how the data is interpreted and affects the user. This scenario requires that you as a system designer perform this analysis and report and test the fix with that context.
 
-## Identify, fix issue, fix process, Repeat - and don't forget the documentation
+#### Identify, fix issue, fix process, Repeat - and don't forget the documentation
 
 Working in this environment and under these constraints means that you need a process, that is well defined to encourage adaptability. Picking the right tool to maintain all this process is also key. A number of tools support integration between your codebase, features/stories, test plans, test executions and code packaging and release. Selecting the right tools also helps alleviate the effort and pain of maintaining traceability. This tool can be configured to build the traceability of an entire feature from start to done with links to any related features/bugs. Even though it is a long and involved process setting this up correctly will go a long way.
 
