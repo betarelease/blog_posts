@@ -10,7 +10,7 @@ tags:
   - continuous Delivery
   - CD
 ---
-(This post is the second and final part of a two-part blog and focuses on continuous delivery. [Previous post](http://betarelease.github.com/who-knew-healthcare-is-hard/) is )
+(This post is the second and final part of a two-part blog and focuses on continuous delivery. [Previous post](http://betarelease.github.com/who-knew-healthcare-is-hard/)
 Given that the healthcare environment has such strict regulatory requirements and legal boundaries it is a challenge in itself
 to write good software that fits the bill. We also were looking to make this a seamless experience for our customers. Our platform was composed of a few parts:
 * a mobile app that works on both iPhone/Android,
