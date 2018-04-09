@@ -7,8 +7,6 @@ enterprise]
 
 Uploading the beta version of the presentation for today’s ruby kaigi talk.
 
-<a href="/images/rocking_the_enterprise.key">Rocking the Enterprise with Ruby (Keynote)</a>
-
-<a href="/images/rocking_the_enterprise.ppt">Rocking the Enterprise with Ruby (PowerPoint)</a>
+[Rocking the Enterprise with Ruby](/images/rocking_the_enterprise.pdf)
 
 Be virtually there!
