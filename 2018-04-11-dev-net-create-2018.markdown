@@ -1,0 +1,63 @@
+---
+layout: post
+title: 'DevNetCreate 2018 - a cute little event - a big surprise'
+tags:
+  - events
+  - conferences
+  - IoT
+  - Cloud
+  - hacking
+---
+
+I made it to the DevNetCreate 2018 event this week and to my surprise it was super fun. I have been attending a few
+of these in the bay area to get in touch with the developer community and also get a feel for what's new.
+
+I am picking the areas that I have not had a chance to engage in - invite to DevNetCreate came in at the right time.
+
+I attended a few sessions and hung out at the workshops/openspace. This was being held at the Computer History Museum, a fantastic place in itself.
+
+Amongst the talks I attended and liked here's are few:
+
+* [Jordan Schuetz](https://twitter.com/ninjapigstudios) from PubNub
+Jordan showcased a model home small enough to fit on a desk and big enough to have some rooms within.He showed how he controlled the entire house using an Arduino and its GPIO. More interestingly he showed that his Arduino was connected to the internet and was being controlled by a simple webapp. All of this being powered by short messages being sent back and forth using PubNub. My next step is to build the exact same thing to control a things in my house - especially the annoying garage door which can stay open if I forget to close it while I am out.
+[Jordan's project](http://pubnub.github.io/pubnub-iot-house/)
+
+
+* [Patrick Hubbard](https://twitter.com/FerventGeek) and [Mandy Hubbard](https://twitter.com/DevMandy) IoT CI/CD
+Patrick demoed a simple but excellent project which was doing CI/CD all the way for IoT. Patrick showcased his project that runs on a Raspberry Pi(using [Gobot](https://gobot.io/)) with I2C and controls a chain of LEDs. His program can sense ambient light and also set mood lighting. Although these were designed to be installed on the kitchen counters, I was thining about putting this to real use. Mandy being a QA/Automation geek supported him all the way from taking his code, building it on Jenkins and then deploying it in an automated fashion. All of this worked on stage(which means the demo gods were pleased at them) and from change to deployment it took < 10 minutes.
+
+* JWTs suck [Randall Degges](https://twitter.com/rdegges) from [Okta](https://www.okta.com/)
+I did not know there was so much to learn and know about JWTs. A few months ago I implemented some authorization logic using JWTs and thought it was cool. Out comes Randall Degges and tells all about how JWTs work. Randall explained it all in a fun way with stick figures - which is why I now remember most of it and know when to use and avoid JWTs. His TL;DR message : You can do whatever you want to do with JWTs, using session cookies. Use JWTs where they make most sense - for authorization of controlled data for short periods only. Take a look at his [longer version of his talk](https://www.youtube.com/watch?v=GrLtOjCTB1s)
+
+Along with the talks I loved the space that they had for workshops and social gathering. In the openspace there was space to setup and attend workshops (7 of them with enough space and equipment for 8-10 people at a time). The workshop space was in the midst of the noise but still very engaging. There were workshops on FaaS, all the way to setting up your own breadboards to PCB.
+Here is a picture of the setup - which included a headphone system, if it got too noisy.
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/workshop.png" alt="Workshops"/>
+Workshop - with headsets
+
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/openspace.png" alt="OpenSpace"/>
+Openspace with ample room to explore and play all kinds of hacks/games
+
+
+The food was excellent - infact they did not cater. They just had a few food trucks come to the venue for us to choose from. With the nice Bay area weather the outside seating was just what we needed.
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/bayarea_outside.png" alt="Lunch is Outside"/>
+Lunch is Outside
+
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/food_trucks.png" alt="Food Trucks"/>
+Food Trucks for lunch .... mmmm .. hmmm
+
+
+Since the whole event happened at the computer history museum I was able to walk around and take a look at a few of the exhibits - including the Waymo car. I was able to touch the Cray 1(they encourage you to touch it and feel how it was built.)
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/waymo_car.png" alt="Waymo Car"/>
+Waymo car
+
+
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/cray1.png" alt="Cray 1"/>
+Cray1
+
+Last but not the least - name tag. Attached here you will see the nice looking, braided lanyard. And the nametag - look at the fine print. I will be planting my name tag.. :)
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/badge.png" alt="Badge"/>
+ID Badge - Its a badge .. its a seed.
+
+Thanks Cisco and all those involved, for making this such an enjoyable event. You made me happy!!!
+<img src="{{ root_url }}/images/cisco_devnetcreate_2018/me_design_thinking.png" alt="Me at Design Thinking"/>
+Me all smiles at the Design Thinking booth.
