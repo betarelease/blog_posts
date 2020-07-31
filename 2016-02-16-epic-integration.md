@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EPIC integration
-tags: [glooko, epic, wsdl, ws*, webservices, healthcare]
+tags: [glooko, epic, wsdl, ws*, webservices, healthcare, featured]
 ---
 
 ## Glooko - Diabetes Management Platform

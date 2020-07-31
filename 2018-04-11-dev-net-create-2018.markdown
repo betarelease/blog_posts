@@ -7,6 +7,7 @@ tags:
   - IoT
   - Cloud
   - hacking
+image: images/cisco_devnetcreate_2018/me_design_thinking.png
 ---
 
 I made it to the DevNetCreate 2018 event this week and to my surprise it was super fun. I have been attending a few

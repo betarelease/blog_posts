@@ -3,7 +3,7 @@ layout: post
 title: "SiriMingle - Siri assistance for Mingle"
 date: 2012-10-14 12:16
 comments: true
-tags: [siri, iphone, osx, ios, siriproxy, mingle, sirimingle, api, crack, httparty, plugin, robot, sudo]
+tags: [siri, iphone, osx, ios, siriproxy, mingle, sirimingle, api, crack, httparty, plugin, robot, sudo, sticky]
 
 ---
 <iframe width="420" height="315" src="http://www.youtube.com/embed/8ONszZN7q9U" frameborder="0" allowfullscreen></iframe>
@@ -31,7 +31,7 @@ On virtualbox the following setting needs to be configured to ensure that the VM
 Run the script. This script should install all dependencies required for dnsmasq. dnsmasq is a tool that allows you to perform dns masquerading on any network. After running this script you should have the following : dnsmasq, rvm and ruby 1.9.3 installed.
 
 [Guide: Setup Working SiriProxy](http://www.techjawa.com/2012/01/31/guide-setup-working-siriproxy-three-little-pigs/) is a great guide to setting SiriProxy correctly. You can choose to ignore setting up the Three Little Pigs server.
-Follow the instructions closely to setup Ubuntu 12.04 with dnsmasq and Siriproxy.  
+Follow the instructions closely to setup Ubuntu 12.04 with dnsmasq and Siriproxy.
 
 If everything has gone well so far you should see
 {% highlight ruby linenos%}
