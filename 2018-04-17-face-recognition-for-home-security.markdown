@@ -8,6 +8,7 @@ tags:
   - AI
   - DIY
   - python
+  - featured
 ---
 
 I was looking to build a security system that captures pictures and alerts me when an intruder walks in to my home or is ringing the door bell. My constraints being:

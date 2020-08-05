@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  EbDeployer
-tags: [eb_deployer, EbDeployer, eb_deploy, elastic beanstalk, amazon, aws, cloud, mingle, services, saas]
+tags: [eb_deployer, EbDeployer, eb_deploy, elastic beanstalk, amazon, aws, cloud, mingle, services, saas, featured]
 ---
 
 If you have been following this blog, you may have been curious what I have been upto recently. Few weeks ago we(Pengchao Wang and I ) got selected to speak at the aws re:invent 2013 conference to speak about our tool eb_deployer.

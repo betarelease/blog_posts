@@ -7,6 +7,7 @@ tags:
   - fda
   - hipaa
   - regulatory
+  - featured
 ---
 (This post is the first part of a two-part blog, I will focus on continuous delivery in the second part.)
 I spent the last 3 years in building and supporting an exciting HealthCare app - [Glooko](http://www.glooko.com) - which supports people with diabetes get a unified view of their health with a single click. When I started on it, I thought of it as another software application, but was about to learn a lot more. First, I learnt that Software is more useful when it can be applied to people's health. Further, I learnt that Software is also more difficult when it applies to people's health - well, rightfully so. Here I detail, what I learnt and why it makes sense to build it that way. <!-- more -->

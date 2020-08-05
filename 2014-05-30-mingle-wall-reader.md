@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mingle Wall Reader - Sync your physical card wall with Mingle
-tags: [mingle, rfid, arduino, mingle-api, mingle_party, httparty, http, hardware, hacking]
+tags: [mingle, rfid, arduino, mingle-api, mingle_party, httparty, http, hardware, hacking, featured]
 ---
 
 Some time ago we built a hardware integration to Mingle. We did not talk much about it at that time. Hence this post to revive the talk about hardware interface with Mingle. Also about other hardware projects that were done in ThoughtWorks around 100days of hardware.

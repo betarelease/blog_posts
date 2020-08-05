@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Isn't 40 mins too long for a build?
-tags: [mingle, build, ci, continuous delivery, cd,feedback]
+tags: [mingle, build, ci, continuous delivery, cd,feedback, featured]
 ---
 
 Yes, our CI build on [@thatsMingle](https://twitter.com/thatsmingle) takes 40 mins.

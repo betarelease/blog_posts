@@ -2,7 +2,7 @@
 layout: post
 title: CruiseControl Monitors - Gotchas and repost
 tags: [continuous integration, ci, cruisecontrol, big visible monitors,
-cc\_monitor, github, opensource, cc\_board]
+cc\_monitor, github, opensource, cc\_board, featured]
 ---
 
 When trying to use <a href="http://github.com/betarelease/cc_monitor">cc\_monitor</a> on my current project I hit the known snag of making it work with cruisecontrol.rb. For the umpteenth time I was not able to find any documentation on making it publish cc\_tray compatible xml, which would make cc\_monitor work with cc.rb.
