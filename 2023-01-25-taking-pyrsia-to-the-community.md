@@ -9,5 +9,7 @@ tags:
   - linux foundation
   - travel
  mage: images/logo-pyrsia.svg
+
+ Taking Pyrsia to the developers
 ---
 

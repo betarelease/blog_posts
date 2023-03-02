@@ -38,24 +38,24 @@ Although, it is not documented how to use this in practice. I will walk you thro
 ### Generate the token
 Personal access tokens can be created by one of the maintainers on the project/organization. If you are the maintainer, go to `Settings` and find `Developer Settings` as shown here.
 
-<img src="images/github_tokens/developer_settings.png" alt="Developer Settings"/>
+<img src="{{ root_url  }}/images/github_tokens/developer_settings.png" alt="Developer Settings"/>
 
 Find the personal access tokens section and the Tokens(classic) under it
-<img src="images/github_tokens/persona_access_tokens.png" alt="Personal access tokens"/>
-<img src="images/github_tokens/tokens_classic.png" alt="tokens classic"/>
-<img src="images/github_tokens/tokens_page.png" alt="tokens page"/>
-<img src="images/github_tokens/tokens_expiration.png" alt="tokens expiration"/>
-<img src="images/github_tokens/tokens_expiration_custom.png" alt="tokens expiration custom"/>
+<img src="{{ root_url  }}/images/github_tokens/persona_access_tokens.png" alt="Personal access tokens"/>
+<img src="{{ root_url  }}/images/github_tokens/tokens_classic.png" alt="tokens classic"/>
+<img src="{{ root_url  }}/images/github_tokens/tokens_page.png" alt="tokens page"/>
+<img src="{{ root_url  }}/images/github_tokens/tokens_expiration.png" alt="tokens expiration"/>
+<img src="{{ root_url  }}/images/github_tokens/tokens_expiration_custom.png" alt="tokens expiration custom"/>
 
 Generate a new token
-<img src="images/github_tokens/generate_token.png" alt="generate new token"/>
+<img src="{{ root_url  }}/images/github_tokens/generate_token.png" alt="generate new token"/>
 (remember to choose the classic token)
 
 Select the appropriate permissions for your project and then generate token.
-<img src="images/github_tokens/generate_new_token.png" alt="generate token"/>
+<img src="{{ root_url  }}/images/github_tokens/generate_new_token.png" alt="generate token"/>
 
 `!Important!` Remember to copy the token to your clipboard and save it somewhere safe.
-<img src="images/github_tokens/copy_token.png" alt="copy token"/>
+<img src="{{ root_url  }}/images/github_tokens/copy_token.png" alt="copy token"/>
 
 This concludes the part of the process where you have a token that you can use for the automations.
 
