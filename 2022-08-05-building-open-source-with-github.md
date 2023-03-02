@@ -8,6 +8,6 @@ tags:
   - community
   - continuous delivery
   - github actions
-image: images/hero-pyrsia-logo.svg
+image: images/hero-pyrsia-logo.png
 ---
 

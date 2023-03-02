@@ -8,7 +8,7 @@ tags:
   - cd foundation
   - linux foundation
   - travel
- mage: images/logo-pyrsia.svg
+ mage: images/icon-pyrsia-torch-175.png
 
  Taking Pyrsia to the developers
 ---
