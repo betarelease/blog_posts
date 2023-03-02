@@ -7,7 +7,7 @@ tags:
   - secrets
   - documentation
   - howto
-image: images/secrets_and_variables.png
+image: /images/github_tokens/secrets_and_variables.png
 ---
 
 As it happens I am managing and organization on github which has been both easy and sometimes tricky. Many a times it has been tricky due to the way github decided to manage projects and project related settings.
@@ -57,20 +57,6 @@ Select the appropriate permissions for your project and then generate token.
 `!Important!` Remember to copy the token to your clipboard and save it somewhere safe.
 <img src="{{ root_url }}/images/github_tokens/copy_token.png" alt="copy token"/>
 
-
 This concludes the part of the process where you have a token that you can use for the automations.
 
 ### Use the Token
-
-<img src="{{ root_url }}/images/github_tokens/generate_new_token.png" alt="generate token"/>
-<img src="{{ root_url }}/images/github_tokens/generate_new_token.png" alt="generate token"/>
-<img src="{{ root_url }}/images/github_tokens/generate_new_token.png" alt="generate token"/>
-<img src="{{ root_url }}/images/github_tokens/generate_new_token.png" alt="generate token"/>
-
-
-
-
-
-
-
-
