@@ -11,6 +11,6 @@ tags:
   - p2p
   - peer-to-peer
   - decentralized
-image: images/logo-pyrsia.png
+image: images/pyrsia/logo-pyrsia.png
 ---
 
