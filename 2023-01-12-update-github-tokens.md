@@ -41,22 +41,51 @@ Personal access tokens can be created by one of the maintainers on the project/o
 <img src="{{ root_url  }}/images/github_tokens/developer_settings.png" alt="Developer Settings"/>
 
 Find the personal access tokens section and the Tokens(classic) under it
-<img src="{{ root_url  }}/images/github_tokens/persona_access_tokens.png" alt="Personal access tokens"/>
-<img src="{{ root_url  }}/images/github_tokens/tokens_classic.png" alt="tokens classic"/>
+<img src="{{ root_url  }}/images/github_tokens/personal_access_tokens.png" alt="Personal access tokens"/>
 <img src="{{ root_url  }}/images/github_tokens/tokens_page.png" alt="tokens page"/>
-<img src="{{ root_url  }}/images/github_tokens/tokens_expiration.png" alt="tokens expiration"/>
-<img src="{{ root_url  }}/images/github_tokens/tokens_expiration_custom.png" alt="tokens expiration custom"/>
 
 Generate a new token
 <img src="{{ root_url  }}/images/github_tokens/generate_token.png" alt="generate new token"/>
 (remember to choose the classic token)
 
+Pick a name for the token
+<img src="{{ root_url  }}/images/github_tokens/token_expiration.png" alt="tokens expiration"/>
+
+Set a decent expiration time. On expiration you will need to generate another token and follow this process again. So ensure that the expiration time is not too short or you will have to repeat this process more frequently.
+<img src="{{ root_url  }}/images/github_tokens/token_expiration_custom.png" alt="tokens expiration custom"/>
+
 Select the appropriate permissions for your project and then generate token.
 <img src="{{ root_url  }}/images/github_tokens/generate_new_token.png" alt="generate token"/>
+
 
 `!Important!` Remember to copy the token to your clipboard and save it somewhere safe.
 <img src="{{ root_url  }}/images/github_tokens/copy_token.png" alt="copy token"/>
 
 This concludes the part of the process where you have a token that you can use for the automations.
 
+If you followed the instructions so far and are wondering why is it so esoteric and hard to use, you are not alone. Just bear with me a little more and you will have completed this process and will not have to worry about it(or even think about it) anymore.
 ### Use the Token
+
+Once you have generated this token and copied to some place safe, it is now time to use it. Using it is not that straightforward either, because the documentation abruptly stops and does not explain the terms clearly.
+
+I will try to spell out smallest details so that it connects the dots between the documentation and token usage.
+
+Now headover to the project organization where you intend to use the token for github actions automation.
+
+Find `Settings` for the organization. Under which you will find a lot many things on the menu, try to find the `Secrets and Variables` as shown here
+<img src="{{ root_url  }}/images/github_tokens/secrets_and_variables.png" alt="secrets and variables"/>
+
+Once you find that find the `actions secrets and variables`
+<img src="{{ root_url  }}/images/github_tokens/actions_secrets_and_variables.png" alt="actions secrets and variables"/>
+Pick the one that is called `ORG_ACCESS_TOKEN` since this is the one that is used by the actions you write. In you actions though it will be called `GITHUB_TOKEN` environment variable thus confusing you even further.
+
+You will come to a page that show cryptic information without giving you the ability to change/update it. You will see a `enter a value` link to copy over your token. That is why you came here, that is why I had to write this documentation because they tried to obscure it, but in turn made it hard to use.
+Anyway, click on the `enter a value` link
+<img src="{{ root_url  }}/images/github_tokens/update_secret.png" alt="update secret"/>
+
+You will now be at a page that has a text box where you can paste the token. Remember to paste the token and click save changes.
+<img src="{{ root_url  }}/images/github_tokens/org_access_token.png" alt="org access token"/>
+
+With this you are actually done. One thing you should double verify is that you are using `${{ secrets.GITHUB_TOKEN }}` correctly in your code. If you need a reference take a look at how we are doing it for the [Pyrsia project workflows](https://github.com/pyrsia/pyrsia/blob/main/.github/workflows/rust.yml).
+
+Phew! I hope this is useful and does not cause you the same pain that I endured after I had to discover this process time and again. I hope this helps me as well :)
