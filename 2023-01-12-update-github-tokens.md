@@ -85,6 +85,6 @@ Anyway, click on the `enter a value` link
 You will now be at a page that has a text box where you can paste the token. Remember to paste the token and click save changes.
 <img src="{{ root_url  }}/images/github_tokens/org_access_token.png" alt="org access token"/>
 
-With this you are actually done. One thing you should double verify is that you are using `{{ secrets.GITHUB_TOKEN }}` correctly in your code. If you need a reference take a look at how we are doing it for the [Pyrsia project workflows](https://github.com/pyrsia/pyrsia/blob/main/.github/workflows/rust.yml).
+With this you are actually done. One thing you should double verify is that you are using `secrets.GITHUB_TOKEN` correctly in your code. If you need a reference take a look at how we are doing it for the [Pyrsia project workflows](https://github.com/pyrsia/pyrsia/blob/main/.github/workflows/rust.yml).
 
 Phew! I hope this is useful and does not cause you the same pain that I endured after I had to discover this process time and again. I hope this helps me as well :)
