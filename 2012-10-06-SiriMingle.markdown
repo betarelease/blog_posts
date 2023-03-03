@@ -6,9 +6,13 @@ comments: true
 tags: [siri, iphone, osx, ios, siriproxy, mingle, sirimingle, api, crack, httparty, plugin, robot, sudo, sticky]
 
 ---
-<iframe width="420" height="315" src="http://www.youtube.com/embed/8ONszZN7q9U" frameborder="0" allowfullscreen></iframe>
 
-Announcing SiriMingle - a tool to interact with Mingle using SiriProxy. Bringing the power of Siri voice control to modify cards, get status and ask questions about the project.
+
+[![Mingle with Siri on iPhone](/images/sirimingle_video.png)](http://www.youtube.com/embed/8ONszZN7q9U "Mingle with Siri on iPhone")
+
+## Announcing SiriMingle
+
+A tool to interact with Mingle using SiriProxy. Bringing the power of Siri voice control to modify cards, get status and ask questions about the project
 
 It can be downloaded from [sirimingle](http://github.com/betarelease/sirimingle.git) and used with SiriProxy.
 
@@ -16,7 +20,7 @@ SiriProxy is a proxy written in ruby 1.9 to allow people to use the power of Sir
 
 <!--more-->
 
-Here is how:
+## Here is how:
 
 * Install Ubuntu 12.04 on your virtualbox(virtual box link), or natively on your desktop/macpro.(For dualbooting on macpro follow the instructions : )
 On virtualbox the following setting needs to be configured to ensure that the VM running Ubuntu gets a native IP address on the host network.
