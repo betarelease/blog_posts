@@ -42,10 +42,9 @@ Personal access tokens can be created by one of the maintainers on the project/o
 
 Find the personal access tokens section and the Tokens(classic) under it
 <img src="{{ root_url  }}/images/github_tokens/personal_access_tokens.png" alt="Personal access tokens"/>
-<img src="{{ root_url  }}/images/github_tokens/tokens_page.png" alt="tokens page"/>
 
 Generate a new token
-<img src="{{ root_url  }}/images/github_tokens/generate_token.png" alt="generate new token"/>
+<img src="{{ root_url  }}/images/github_tokens/generate_new_token.png" alt="generate new token"/>
 (remember to choose the classic token)
 
 Pick a name for the token
@@ -55,8 +54,8 @@ Set a decent expiration time. On expiration you will need to generate another to
 <img src="{{ root_url  }}/images/github_tokens/token_expiration_custom.png" alt="tokens expiration custom"/>
 
 Select the appropriate permissions for your project and then generate token.
-<img src="{{ root_url  }}/images/github_tokens/generate_new_token.png" alt="generate token"/>
 
+<img src="{{ root_url  }}/images/github_tokens/generate_token.png" alt="generate token"/>
 
 `!Important!` Remember to copy the token to your clipboard and save it somewhere safe.
 <img src="{{ root_url  }}/images/github_tokens/copy_token.png" alt="copy token"/>
@@ -86,6 +85,6 @@ Anyway, click on the `enter a value` link
 You will now be at a page that has a text box where you can paste the token. Remember to paste the token and click save changes.
 <img src="{{ root_url  }}/images/github_tokens/org_access_token.png" alt="org access token"/>
 
-With this you are actually done. One thing you should double verify is that you are using `${{ secrets.GITHUB_TOKEN }}` correctly in your code. If you need a reference take a look at how we are doing it for the [Pyrsia project workflows](https://github.com/pyrsia/pyrsia/blob/main/.github/workflows/rust.yml).
+With this you are actually done. One thing you should double verify is that you are using `{{ secrets.GITHUB_TOKEN }}` correctly in your code. If you need a reference take a look at how we are doing it for the [Pyrsia project workflows](https://github.com/pyrsia/pyrsia/blob/main/.github/workflows/rust.yml).
 
 Phew! I hope this is useful and does not cause you the same pain that I endured after I had to discover this process time and again. I hope this helps me as well :)
