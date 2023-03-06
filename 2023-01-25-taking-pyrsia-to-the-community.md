@@ -13,7 +13,7 @@ image: images/pyrsia/icon-pyrsia-torch-175.png
 
 Since the time we envisioned [Pyrsia](https://pyrsia.io), we aimed to make it a community project. It was setup in such a way that it is open source, open governance and open process from the start. With our clear intention to engage the community we started working on it since we began in October 2021. Here is a recollection of what we did in the year or more since and where we are at the moment.
 
-Like any new idea it made great sense to us but there were questions and challenges being raised everytime we talked about. [Stephen Chin](@steveonjava) and I were determined to answer or atleast every single one of the raised eyebrows.
+Like any new idea it made great sense to us but there were questions and challenges being raised everytime we talked about. [Stephen Chin](https://twitter.com/steveonjava) and I were determined to answer or atleast every single one of the raised eyebrows.
 
 Our first challenge was building a compelling case for the project and finding the correct forum in the open source world to do that. After some research we found a good avenue that would be willing to listen to us. We built a cracking presentation(or so we thought) that would describe the concepts within Pyrsia and answer most of the early questions. The overall response was heartwarming and welcoming after we finished with the presentation and we received a number of comments about taking such an audacious challenge. It was audacious for a few reasons:
 
