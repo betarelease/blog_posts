@@ -7,6 +7,7 @@ tags:
   - secrets
   - documentation
   - howto
+  - featured
 image: images/github_tokens/secrets_and_variables.png
 ---
 
