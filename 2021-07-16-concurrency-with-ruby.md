@@ -10,7 +10,7 @@ tags:
   - channels
   - pipelines
   - concurrent-ruby
-image: images/ruby/concurrency.png
+image: images/ruby_concurrency/ruby_concurrency.png
 ---
 
 ## Slides for the talk
