@@ -13,3 +13,6 @@ tags:
 image: images/rust/concurrency.png
 ---
 
+## Talk at RustLondon
+
+[Slides for the talk](https://docs.google.com/presentation/d/1tFlmY9k7x-16KNnMc8GZKDKgKOiuso6E/edit?usp=sharing&ouid=105097944914173266944&rtpof=true&sd=true)
