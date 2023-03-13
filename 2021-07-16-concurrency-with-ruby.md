@@ -10,6 +10,7 @@ tags:
   - channels
   - pipelines
   - concurrent-ruby
+  - sticky
 image: images/ruby_concurrency/ruby_talk.png
 ---
 

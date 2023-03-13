@@ -10,6 +10,7 @@ tags:
   - channels
   - pipelines
   - tokio.rs
+  - sticky
 image: images/rust_concurrency/rust_london.jpeg
 ---
 

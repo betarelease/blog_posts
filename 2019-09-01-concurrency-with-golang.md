@@ -13,6 +13,7 @@ tags:
   - Pivotal
   - Tanzu
   - kubernetes
+  - sticky
 image: images/golang_concurrency/golang_concurrency_talk.png
 ---
 
