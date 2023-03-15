@@ -4,6 +4,7 @@ title: "SiriMingle - Siri assistance for Mingle"
 date: 2012-10-14 12:16
 comments: true
 tags: [siri, iphone, osx, ios, siriproxy, mingle, sirimingle, api, crack, httparty, plugin, robot, sudo, sticky]
+image: images/sirimingle_video.png
 
 ---
 
