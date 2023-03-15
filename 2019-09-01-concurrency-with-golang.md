@@ -14,6 +14,7 @@ tags:
   - Tanzu
   - kubernetes
   - sticky
+youtubeId: "z47m0okLtWM"
 image: images/golang_concurrency/golang_concurrency_talk.png
 ---
 
@@ -26,7 +27,8 @@ In this talk, I explain the challenge in what we were trying to do and how we ov
 
 ## Talk at GONYC
 
-[![Golang Concurrency and Asynchronous Processing](/images/golang_concurrency/golang_concurrency_talk.png)](https://www.youtube.com/watch?v=z47m0okLtWM "Golang Concurrency and Asynchronous Processing")
+[![Golang Concurrency and Asynchronous Processing](/images/golang_concurrency/golang_concurrency_talk.png)](https://www.youtube.com/watch?v=z47m0okLtWM&t=1864 "Golang Concurrency and Asynchronous Processing")
+
 My talk was the second talk at the meetup. Please scroll past minute 31:04 to listen to my talk.
 
 ## Slides for the talk
